@@ -8,29 +8,33 @@
     <body>
         <form>
             <div class = "container">
-                <div>
-                    <h2 class = "title">contact us</h2>
+                <div class="w-100">
+                    <div>
+                        <h2 class = "title">contact us</h2>
+                    </div>
+                    <div>
+                        <h4>Your Email</h4>
+                        <input type ="email" placeholder="email@example.com"> 
+                    </div>
                 </div>
                 <div>
-                    <h4>Your Email</h4>
-                    <input type ="email" placeholder="email@example.com"> 
-                </div>
-                <div>
-                    <div class="first-name">
+                    <div class="w-50">
                         <h4>First name</h4>
-                        <input type="text" class="first-text">
+                        <input type="text" class="name-text">
                     </div>
-                    <div class="last-name">
+                    <div class="w-50">
                         <h4>Last name</h4>
-                        <input type="text" class="last-text">
+                        <input type="text" class="name-text">
                     </div>
+                    <div style="clear: both;"></div>
                 </div>
                 <div class="div-message">
                     <h4>Message</h4>
-                    <input type="text" class="text-message">
+                    <textarea class="textarea-message"></textarea>
                 </div>
-                <div>
-                    <input type="checkbox"  class = 'subscribe'>Subscribe
+                <div class="w-100">
+                    <input id="sub" type="checkbox"  class = 'mouse'>
+                    <label for="sub" class="mouse">Subscribe</label>
                     <button type="submit" class="send">SEND</button>
                 </div>
             </div>

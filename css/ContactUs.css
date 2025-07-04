@@ -2,9 +2,10 @@ body{
     margin: 0;
 }
 
-div{
+div, input, textarea{
     box-sizing: border-box;
 }
+
 
 .container{
     width: 500px;
@@ -18,6 +19,11 @@ div{
     margin-top: 50px;
 }
 
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+
 .title{
     margin-top: 0;
     font-size: 50px; 
@@ -25,7 +31,7 @@ div{
 }
 
 input[type=email]{
-    width: calc(100% - 30px);
+    width: 100%;
     padding: 10px;
     font-size: 15px;
 }
@@ -35,46 +41,37 @@ h4{
     margin-bottom: 0;
 }
 
-.first-name{
+.w-50{
+    width: 50%;
     float: left;
+    padding: 10px;
 }
 
-.last-name{
-    margin-left: 30px;
-    float: left;
-}
-
-.first-text{
-    width: 178px;
+.name-text{
+    width: 100%;
     padding: 10px;
     font-size: 15px;
-}
-
-.last-text{
-    width: 178px;
-    padding: 10px;
-    font-size: 15px; 
 }
 
 .div-message{
     width: 100%;
-    margin-top: 120px;
+    padding: 10px;
 }
 
-.text-message{
-    width: calc(100% - 11px);
-    height: 270px;
+.textarea-message{
+    width: 100%;
+    height: 220px;
     font-size: 15px;
 }
 
-.subscribe{
-    margin-top: 40px; 
+.mouse{
     cursor: pointer; 
     transition: all 0.1s ease-in-out;
 }
 
 .send{
-    margin-left: calc(100% - 155px);
+    display: block;
+    margin-left: auto;
     position: relative;
     top: -30px;
     width: 150px;
@@ -89,7 +86,7 @@ h4{
 }
 
 .send:active{
-    transform: scale(3.97);
+    transform: scale(0.97);
     background: orangered;
 }
 
