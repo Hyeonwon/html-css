@@ -66,13 +66,22 @@ img{
     border-radius: 5px;
 }
 
-button:active{
-    background: rgb(33, 33, 97);
-    transform: scale(0.97);
+button:hover{
+    background-color: aquamarine;
 }
+
+button:focus{
+    background-color: blue;
+}
+
+button:active{
+    background: rgb(137, 173, 71);
+    transform: scale(1.97);
+}
+
+/* 순서가 중요하다 */
 
 .cart-table td, .cart-table th{
     padding: 15px;
     border-bottom: 1px solid #BFD0DA;
 }
-

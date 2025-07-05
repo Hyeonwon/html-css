@@ -35,3 +35,16 @@ td, th{
 .cart-table td:nth-child(5){
     font-size: 20px;
 }
+
+.c-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.c-link:link{
+    color: red;
+}
+
+.c-link:visited{
+    color: black;
+}
