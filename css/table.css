@@ -1,8 +1,37 @@
-td, th {
-    border: 1px solid black;
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
 }
 
 table{
     border-collapse: collapse;
     /* 틈을 없애준다 */
+}
+
+td, th{
+    width: 500px;
+    /* border: 1px solid black; */
+}
+
+
+.background{
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.cart-table td{
+    border-bottom: 1px solid blueviolet;
+}
+
+.cart-table{
+    background-color: white;
+    
+}
+
+.cart-table td:nth-child(5){
+    font-size: 20px;
 }

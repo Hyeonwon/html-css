@@ -1,0 +1,78 @@
+div{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}   
+
+.cart-background{
+    height: 100%;
+    padding: 30px;
+    background-color: #BFD0DA;
+}
+
+.cart{
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    border: 1px solid black;
+}
+
+.title{
+    color: rgb(24, 50, 97);
+    font-size: 25px;
+}
+
+.cart-table{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(109, 153, 182);
+    vertical-align: middle;
+}
+
+.total-price1{
+    color: rgb(36, 36, 100);
+    text-align: right;
+}
+
+.cart-button{
+    width: 300px;
+    height: 80px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background: rgb(75, 75, 184);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:active{
+    background: rgb(33, 33, 97);
+    transform: scale(0.97);
+}
+
+.cart-table td, .cart-table th{
+    padding: 15px;
+    border-bottom: 1px solid #BFD0DA;
+}
+
