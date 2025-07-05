@@ -1,0 +1,29 @@
+/* 뼈대 디자인을 만드는 것이 좋다 */
+.btn{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+/* Object Oriented CSS */
+/* Utility class: 만들어 두면 편하다 */
+
+.font-small{
+    font-size: 10px;
+}
+
+.font-mid{
+    font-size: 15px;
+}
+
+.font-large{
+    font-size: 20px;
+}
