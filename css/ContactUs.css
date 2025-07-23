@@ -1,13 +1,21 @@
-body{
-    margin: 0;
+@font-face {
+    font-family: '예쁜폰트';
+    src: url(../font/NanumSquareAcB.woff);
 }
 
-div, input, textarea{
+body {
+    margin: 0;
+    font-family: '예쁜폰트';
+}
+
+div,
+input,
+textarea {
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     width: 500px;
     height: 700px;
     padding-left: 30px;
@@ -19,57 +27,57 @@ div, input, textarea{
     margin-top: 50px;
 }
 
-.w-100{
+.w-100 {
     width: 100%;
     padding: 10px;
 }
 
-.title{
+.title {
     margin-top: 0;
-    font-size: 50px; 
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-input[type=email]{
+input[type=email] {
     width: 100%;
     padding: 10px;
     font-size: 15px;
 }
 
-h4{
+h4 {
     font-size: 20px;
     margin-bottom: 0;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
     float: left;
     padding: 10px;
 }
 
-.name-text{
+.name-text {
     width: 100%;
     padding: 10px;
     font-size: 15px;
 }
 
-.div-message{
+.div-message {
     width: 100%;
     padding: 10px;
 }
 
-.textarea-message{
+.textarea-message {
     width: 100%;
     height: 220px;
     font-size: 15px;
 }
 
-.mouse{
-    cursor: pointer; 
+.mouse {
+    cursor: pointer;
     transition: all 0.1s ease-in-out;
 }
 
-.send{
+.send {
     display: block;
     margin-left: auto;
     /* 오른쪽 정렬방법 */
@@ -86,8 +94,30 @@ h4{
     transition: all 0.1s ease-in-out;
 }
 
-.send:active{
+.send:active {
     transform: scale(0.97);
     background: orangered;
 }
 
+p,
+h4,
+h3,
+h2,
+input,
+button,
+title {
+    transform: rotate(0.03deg);
+}
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(117, 210, 233);
+}
+
+.nav-item {
+    margin: 10px;
+    color: white;
+}

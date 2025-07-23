@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/ContactUs.css">
-    </head>
-    <body>
-        <form>
-            <div class = "container">
-                <div class="w-100">
-                    <div>
-                        <h2 class = "title">contact us</h2>
-                    </div>
-                    <div>
-                        <h4>Your Email</h4>
-                        <input type ="email" placeholder="email@example.com"> 
-                    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ContactUs.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <div class="nav-item" style="font-size: 40px;">Shop</div>
+        <div style="flex-grow: 1;"></div>
+        <div class="nav-item" style="font-size: 30px;">products</div>
+        <div class="nav-item" style="font-size: 30px;">services</div>
+    </nav>
+
+    <form>
+        <div class="container">
+            <div class="w-100">
+                <div>
+                    <h2 class="title">contact us</h2>
                 </div>
                 <div>
-                    <div class="w-50">
-                        <h4>First name</h4>
-                        <input type="text" class="name-text">
-                    </div>
-                    <div class="w-50">
-                        <h4>Last name</h4>
-                        <input type="text" class="name-text">
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                <div class="div-message">
-                    <h4>Message</h4>
-                    <textarea class="textarea-message"></textarea>
-                </div>
-                <div class="w-100">
-                    <input id="sub" type="checkbox"  class = 'mouse'>
-                    <label for="sub" class="mouse">Subscribe</label>
-                    <button type="submit" class="send">SEND</button>
+                    <h4>Your Email</h4>
+                    <input type="email" placeholder="email@example.com">
                 </div>
             </div>
-        </form>
-    </body>
+            <div>
+                <div class="w-50">
+                    <h4>First name</h4>
+                    <input type="text" class="name-text">
+                </div>
+                <div class="w-50">
+                    <h4>Last name</h4>
+                    <input type="text" class="name-text">
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="div-message">
+                <h4>Message</h4>
+                <textarea class="textarea-message"></textarea>
+            </div>
+            <div class="w-100">
+                <input id="sub" type="checkbox" class='mouse'>
+                <label for="sub" class="mouse">Subscribe</label>
+                <button type="submit" class="send">SEND</button>
+            </div>
+        </div>
+    </form>
+</body>
 
 </html>
