@@ -185,7 +185,7 @@ title {
     height: 40px;
     align-items: center;
     padding: 10px;
-    background-color: rgb(117, 210, 233);
+    background-color: rgb(41, 103, 119);
 }
 
 .nav-item {
@@ -213,6 +213,17 @@ title {
 
 .div-item{
     flex-grow: 1;
+}
+
+.div-container i{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1200px){
