@@ -60,15 +60,6 @@
     /* z-index: 1; */
 }
 
-div{
-    box-sizing: border-box;
-    /* 이렇게 해놓고 시작하면 좋음 */
-}
-
-body{
-    margin: 0px;
-}
-
 /* normalize.css <- 복붙하고 시작.호환성 이슈 해결 */
 
 input[type=text]{
@@ -76,4 +67,168 @@ input[type=text]{
     font-size: 20px;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+@font-face {
+    font-family: '예쁜폰트';
+    src: url(../font/NanumSquareAcB.woff);
+}
+
+body {
+    margin: 0;
+    font-family: '예쁜폰트';
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 500px;
+    height: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.name-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.div-message {
+    width: 100%;
+    padding: 10px;
+}
+
+.textarea-message {
+    width: 100%;
+    height: 220px;
+    font-size: 15px;
+}
+
+.mouse {
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.send {
+    display: block;
+    margin-left: auto;
+    /* 오른쪽 정렬방법 */
+    position: relative;
+    top: -30px;
+    width: 150px;
+    height: 50px;
+    background: darkorange;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.send:active {
+    transform: scale(0.97);
+    background: orangered;
+}
+
+p,
+h4,
+h3,
+h2,
+input,
+button,
+title {
+    transform: rotate(0.03deg);
+}
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(117, 210, 233);
+}
+
+.nav-item {
+    margin: 10px;
+    color: white;
+}
+
+.div-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.div-container1{
+    display: flex;
+    flex-grow: 1;
+}
+.div-container2{
+    display: flex;
+    flex-grow: 1;
+}
+
+.div-item{
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px){
+    .main-title{
+        font-size: 30px;
+    }
+    .div-container{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .div-container1{
+        display: block;
+    }
+    .div-container2{
+        display: block;
+    }
 }
